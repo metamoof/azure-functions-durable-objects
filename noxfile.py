@@ -28,12 +28,3 @@ def typecheck(session):
     session.install("-r", "requirements.txt")
     session.install("mypy")
     session.run("mypy", "./durable_objects/")
-
-
-@nox.session(python=PYTHONVERSIONS)
-def autopep(session):
-    session.install("-r", "requirements.txt")
-    session.run(
-        "autopep8",
-        '--in-place --aggressive --aggressive --recursive "./durable_objects/"',
-    )
