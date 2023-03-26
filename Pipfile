@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"azure.functions" = "*"
+mypy = "*"
+
+[dev-packages]
+black = "*"
+pytest = "*"
+nox = "*"
+flake8-docstrings = "*"
+pytest-asyncio = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.10"

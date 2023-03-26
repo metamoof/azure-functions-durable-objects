@@ -1,0 +1,8 @@
+azure-functions
+azure-functions-durable
+flake8
+flake8-docstrings
+pytest
+nox
+pytest-asyncio
+autopep8
